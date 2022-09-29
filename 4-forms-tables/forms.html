@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+
+    <h1>Register Here</h1>
+
+    <form method="post" action="thankyou.html">
+
+        <label>
+            First Name:
+            <input type="text" name="first">
+        </label>
+
+        <br>
+
+        <label>
+            Email Address:
+            <input type="email" name="email">
+        </label>
+
+        <br>
+
+        <label for="birthdate">
+            Birth Date:
+        </label>
+        <input type="date" name="birthdate" id="birthdate">
+
+        <br>
+
+        <label>
+            <input type="checkbox" name="emails" value="yes">
+            I would like to receive emails:
+        </label>
+
+        <br>
+
+        <label>
+            Province:
+            <select name="province">
+                <option>Choose...</option>
+                <option value="AB">Alberta</option>
+                <option value="ON">Ontario</option>
+            </select>
+        </label>
+
+        <br>
+
+        <label>
+            Comment:
+            <textarea name="comment"></textarea>
+        </label>
+
+        <br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+    
+</body>
+</html>
