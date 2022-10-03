@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Forms</title>
+    <title>Contact Form</title>
 </head>
 <body>
 
-    <h1>Register Here</h1>
+    <h1>Contact Form</h1>
 
     <form method="post" action="thankyou.html">
 
-        <label>
+        <table border="1">
+            <tr><td>
+        
+        <label for="first_name">
             First Name:
-            <input type="text" name="first">
         </label>
+        </td><td>
+            <input type="text" name="first_name" id="first_name">
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email" id="email_label">
+                    Email Address:
+                </label>
+            </td>
+            <td>
+                <input type="email" name="email" id="email">
+            </td>
+        </tr>
+    </table>
+
+        <br>
+
+        
+
+        
+        
 
         <br>
 
         <label>
-            Email Address:
-            <input type="email" name="email">
-        </label>
-
-        <br>
-
-        <label for="birthdate">
-            Birth Date:
-        </label>
-        <input type="date" name="birthdate" id="birthdate">
-
-        <br>
-
-        <label>
-            <input type="checkbox" name="emails" value="yes">
-            I would like to receive emails:
+            <input type="checkbox" name="agree">
+            I agree to the terms and conditions
         </label>
 
         <br>
@@ -40,9 +50,9 @@
         <label>
             Province:
             <select name="province">
-                <option>Choose...</option>
-                <option value="AB">Alberta</option>
-                <option value="ON">Ontario</option>
+                <option></option>
+                <option>Alberta</option>
+                <option>Ontario</option>
             </select>
         </label>
 
@@ -50,12 +60,14 @@
 
         <label>
             Comment:
-            <textarea name="comment"></textarea>
+            <textarea name="comments"></textarea>
         </label>
 
         <br>
 
         <input type="submit" value="Submit">
+
+
 
     </form>
     
