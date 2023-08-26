@@ -1,4 +1,4 @@
-# Introduction to HTML
+# HTML Lesson Files
 
 A collection of files coded while teaching an introduction to HTML class.
 
@@ -7,7 +7,9 @@ A collection of files coded while teaching an introduction to HTML class.
 3. [Links and Images](https://github.com/codeadamca/lessons-html/tree/main/3-links-images)
 4. [Forms and Tables](https://github.com/codeadamca/lessons-html/tree/main/4-form-tables)
 
-## Requirements:
+***
+
+## Repo Resources
 
 * [HTML on MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
 * [HTML on W3Schools](https://www.w3schools.com/html/)
